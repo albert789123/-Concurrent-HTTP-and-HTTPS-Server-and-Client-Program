@@ -1,0 +1,18 @@
+"demo_client.mp4" is the demo of NetProbeCilent.
+
+The client is tested with the following command line:
+./NetProbeCilent http://www.cuhk.edu.hk
+./NetProbeCilent https://www.google.com -verifyhost www.google.com
+./NetProbeClient https://ierg4180.mclab.org -verifyhost ierg4180.mclab.org
+./NetProbeClient https://ierg4180x.mclab.org -verifyhost ierg4180x.mclab.org
+
+"demo_server.mp4" is the demo of NetProbeServer.
+The server starts running and is tested using NetProbeCilent and FireFox.
+
+Command line used in NetProbeCilent:
+./NetProbeClient http://127.0.0.1:4080
+./NetProbeClient https://127.0.0.1:4081 -verifyhost localhost
+
+URL used in FireFox (with TLSv1 enable):
+http://127.0.0.1:4080
+https://127.0.0.1:4081
